@@ -1,0 +1,152 @@
+[
+  {
+    "struct": "disconnected",
+    "k": 8,
+    "jaccard": 0.143,
+    "position_matches": 0,
+    "eig_recovered": 631,
+    "cert_recovered": 1771,
+    "eig_real_hits": 7,
+    "cert_real_hits": 6,
+    "eig_heads": [
+      "0x407330",
+      "0x412c90",
+      "0x411ba0",
+      "0x40ed30",
+      "0x40ba70",
+      "0x40bd10",
+      "0x41c093",
+      "0x405ea0"
+    ],
+    "cert_heads": [
+      "0x404dd0",
+      "0x405300",
+      "0x405ea0",
+      "0x4069f0",
+      "0x407330",
+      "0x40d623",
+      "0x40d973",
+      "0x40e6f0"
+    ]
+  },
+  {
+    "struct": "high-posterior",
+    "k": 8,
+    "jaccard": 0.231,
+    "position_matches": 0,
+    "eig_recovered": 1206,
+    "cert_recovered": 1199,
+    "eig_real_hits": 7,
+    "cert_real_hits": 6,
+    "eig_heads": [
+      "0x407330",
+      "0x405ea0",
+      "0x404b00",
+      "0x410720",
+      "0x4069f0",
+      "0x40a140",
+      "0x412c90",
+      "0x42050f"
+    ],
+    "cert_heads": [
+      "0x404dd0",
+      "0x405300",
+      "0x405ea0",
+      "0x4069f0",
+      "0x407330",
+      "0x40d623",
+      "0x40d973",
+      "0x40e6f0"
+    ]
+  },
+  {
+    "struct": "interleaved",
+    "k": 8,
+    "jaccard": 0.0,
+    "position_matches": 0,
+    "eig_recovered": 0,
+    "cert_recovered": 0,
+    "eig_real_hits": 0,
+    "cert_real_hits": 0,
+    "eig_heads": [
+      "0x40ff70",
+      "0x411300",
+      "0x40ff00",
+      "0x41e640",
+      "0x40ec40",
+      "0x41dda0",
+      "0x4040db",
+      "0x4201b0"
+    ],
+    "cert_heads": [
+      "0x403370",
+      "0x403390",
+      "0x4033a0",
+      "0x403430",
+      "0x403570",
+      "0x4035d0",
+      "0x403660",
+      "0x403670"
+    ]
+  },
+  {
+    "struct": "mixed",
+    "k": 8,
+    "jaccard": 0.0,
+    "position_matches": 0,
+    "eig_recovered": -325,
+    "cert_recovered": 0,
+    "eig_real_hits": 8,
+    "cert_real_hits": 0,
+    "eig_heads": [
+      "0x405ea0",
+      "0x411ba0",
+      "0x412c90",
+      "0x40ed30",
+      "0x40ba70",
+      "0x406470",
+      "0x40bd10",
+      "0x40c730"
+    ],
+    "cert_heads": [
+      "0x40d3c3",
+      "0x40d453",
+      "0x40d4b3",
+      "0x40d583",
+      "0x40d5b3",
+      "0x40d603",
+      "0x40d6f3",
+      "0x41de7f"
+    ]
+  },
+  {
+    "struct": "self-anchoring",
+    "k": 8,
+    "jaccard": 0.0,
+    "position_matches": 0,
+    "eig_recovered": -4565,
+    "cert_recovered": 146,
+    "eig_real_hits": 7,
+    "cert_real_hits": 3,
+    "eig_heads": [
+      "0x407330",
+      "0x411ba0",
+      "0x409960",
+      "0x406470",
+      "0x40cd00",
+      "0x40d9c3",
+      "0x412c90",
+      "0x40ed30"
+    ],
+    "cert_heads": [
+      "0x402ce6",
+      "0x40466a",
+      "0x404980",
+      "0x405110",
+      "0x40553a",
+      "0x40a260",
+      "0x40d4c3",
+      "0x40d503"
+    ]
+  }
+]

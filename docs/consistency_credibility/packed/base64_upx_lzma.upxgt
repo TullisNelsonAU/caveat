@@ -1,0 +1,5 @@
+# Format-exact GT for base64_upx_lzma — derived from UPX's own b_info chain (NOT a disassembler).
+# 3 b_info blocks; p_filesize=104533.
+# field       label     vaddr_start   vaddr_end     file_start  file_end
+exec_segment  -         0x800000      0x80480b      0x0       0x480b
+compressed    NEGATIVE  0x800188      0x8036c1      0x188       0x36c1  provable data (13625 B)

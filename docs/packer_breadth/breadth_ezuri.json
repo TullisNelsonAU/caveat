@@ -1,0 +1,20 @@
+{
+  "n_holdout": 24,
+  "sel_mmae_sglob": 0.6667,
+  "sel_mmae_nis": 0.7083,
+  "sel_classifier_centroid": 0.5000,
+  "sel_classifier_rule": 1.0000,
+  "sel_guard": 0.5000,
+  "rule_glob_hi": 2.5147,
+  "rule_spat_hi": 0.1052,
+  "pack_ent_lo": 7.1688,
+  "regime_benign": {"n": 6, "ece_always_benign": 0.0032, "ece_oracle": 0.0032, "ece_rule": 0.0032, "ece_guard": 0.0032, "med_always_benign": 0.0033, "med_oracle": 0.0033, "med_rule": 0.0033, "med_guard": 0.0033},
+  "regime_packed": {"n": 12, "ece_always_benign": 0.2720, "ece_oracle": 0.0000, "ece_rule": 0.0000, "ece_guard": 0.2720, "med_always_benign": 0.2720, "med_oracle": 0.0000, "med_rule": 0.0000, "med_guard": 0.2720},
+  "regime_obfuscated": {"n": 6, "ece_always_benign": 0.0770, "ece_oracle": 0.0245, "ece_rule": 0.0245, "ece_guard": 0.0245, "med_always_benign": 0.0675, "med_oracle": 0.0273, "med_rule": 0.0273, "med_guard": 0.0273},
+  "sel_benign": {"mmae": 0.6667, "mmae_nis": 0.8333, "clf": 1.0000, "rule": 1.0000, "guard": 1.0000},
+  "sel_packed": {"mmae": 1.0000, "mmae_nis": 1.0000, "clf": 0.0000, "rule": 1.0000, "guard": 0.0000},
+  "sel_obfuscated": {"mmae": 0.0000, "mmae_nis": 0.0000, "clf": 1.0000, "rule": 1.0000, "guard": 1.0000},
+  "recovery_packed": {"rule": 1.0000, "guard": 0.0000},
+  "recovery_obfuscated": {"rule": 1.0000, "guard": 1.0000},
+  "_end": true
+}

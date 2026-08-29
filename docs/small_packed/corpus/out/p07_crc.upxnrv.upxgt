@@ -1,0 +1,5 @@
+# Format-exact GT for p07_crc.upxnrv — derived from UPX's own b_info chain (NOT a disassembler).
+# 6 b_info blocks; p_filesize=20512.
+# field       label     vaddr_start   vaddr_end     file_start  file_end
+exec_segment  -         0x405000      0x4060dd      0x0       0x10dd
+compressed    NEGATIVE  0x40510c      0x405bf0      0x10c       0xbf0  provable data (2788 B)

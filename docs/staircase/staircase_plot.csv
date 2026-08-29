@@ -1,0 +1,8 @@
+obf,struct,R0,R2,R3,R4,R5
+code-in-data,tiled,0.1671,0.1264,0.1264,0.1088,0.1088
+decoy-heavy,disconnected,0.1550,0.1320,0.1320,0.1255,0.1087
+decoy-heavy,high-posterior,0.1537,0.1226,0.1226,0.1183,0.1149
+decoy-heavy,interleaved,0.1909,0.2226,0.2226,0.2226,0.2226
+decoy-heavy,mixed,0.1543,0.1305,0.1305,0.1245,0.1099
+decoy-heavy,self-anchoring,0.1540,0.1577,0.1577,0.1599,0.1072
+desync,desync,0.2467,0.2336,0.2971,,

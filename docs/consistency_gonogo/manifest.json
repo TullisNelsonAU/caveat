@@ -1,0 +1,85 @@
+{
+  "engine": "probdisasm",
+  "engine_path_dependency": "Cargo.toml -> ../probdisasm (no revision is pinned)",
+  "files": {
+    "results.csv": {
+      "bytes": 12318,
+      "csv_data_last_changed": "2026-07-11T13:31:36-05:00",
+      "csv_data_last_changed_commit": "2ef99d68072ef90734f27755b9acdf9a81c06aeb",
+      "csv_tracked": true,
+      "data_rows": 86,
+      "engine": {
+        "commit": null,
+        "older_candidates": [
+          {
+            "commit": "0b80141f9321d100edd236d71808fa64a846900d",
+            "date": "2026-07-05T18:13:42-05:00",
+            "short": "0b80141",
+            "subject": "feat(analysis): opt-in forward decode-chain-consistency prior (chainfwd)"
+          },
+          {
+            "commit": "cb03961d46ac3c1607ebad339a1c2232a070f986",
+            "date": "2026-07-04T12:59:32-05:00",
+            "short": "cb03961",
+            "subject": "feat: entropy prior, DASSA weights, segment fallback"
+          },
+          {
+            "commit": "48e44ea0f290974e5d405bdbbef2fec940864a8c",
+            "date": "2026-06-06T10:52:55-05:00",
+            "short": "48e44ea",
+            "subject": "parallel BP: rayon-parallelize per-factor message loops (total_in serial for bit-identical output)"
+          }
+        ],
+        "reason": "No run log recorded the engine commit. The engine cannot have been newer than the CSV, so b43ee42 is the newest it could have been; any older commit is possible. This is a bound, not a record.",
+        "source": "inferred_upper_bound",
+        "upper_bound": {
+          "commit": "b43ee428616a214e15fefc5a872e3152a1f3e952",
+          "date": "2026-07-11T13:31:11-05:00",
+          "short": "b43ee42",
+          "subject": "feat(analysis): read-only cavity-belief + surprise hook"
+        }
+      },
+      "sha256": "b45e6783b913e531c61b624350c26254298f25b63609f08fefcccfe665e90901"
+    },
+    "strip_desync_tsort.csv": {
+      "bytes": 2379057,
+      "csv_data_last_changed": "2026-07-11T13:31:36-05:00",
+      "csv_data_last_changed_commit": "2ef99d68072ef90734f27755b9acdf9a81c06aeb",
+      "csv_tracked": true,
+      "data_rows": 47788,
+      "engine": {
+        "commit": null,
+        "older_candidates": [
+          {
+            "commit": "0b80141f9321d100edd236d71808fa64a846900d",
+            "date": "2026-07-05T18:13:42-05:00",
+            "short": "0b80141",
+            "subject": "feat(analysis): opt-in forward decode-chain-consistency prior (chainfwd)"
+          },
+          {
+            "commit": "cb03961d46ac3c1607ebad339a1c2232a070f986",
+            "date": "2026-07-04T12:59:32-05:00",
+            "short": "cb03961",
+            "subject": "feat: entropy prior, DASSA weights, segment fallback"
+          },
+          {
+            "commit": "48e44ea0f290974e5d405bdbbef2fec940864a8c",
+            "date": "2026-06-06T10:52:55-05:00",
+            "short": "48e44ea",
+            "subject": "parallel BP: rayon-parallelize per-factor message loops (total_in serial for bit-identical output)"
+          }
+        ],
+        "reason": "No run log recorded the engine commit. The engine cannot have been newer than the CSV, so b43ee42 is the newest it could have been; any older commit is possible. This is a bound, not a record.",
+        "source": "inferred_upper_bound",
+        "upper_bound": {
+          "commit": "b43ee428616a214e15fefc5a872e3152a1f3e952",
+          "date": "2026-07-11T13:31:11-05:00",
+          "short": "b43ee42",
+          "subject": "feat(analysis): read-only cavity-belief + surprise hook"
+        }
+      },
+      "sha256": "48f9ed4246910756d9abc7835b8474cd20e53034d840c1293c3804c9eb7b8c93"
+    }
+  },
+  "schema": 1
+}

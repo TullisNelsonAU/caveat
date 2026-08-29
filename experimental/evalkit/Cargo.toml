@@ -1,0 +1,14 @@
+[package]
+name = "evalkit"
+version = "0.0.0"          # experimental: shared eval machinery for honesty/synth/sweep
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+publish = false
+
+[dependencies]
+anyhow.workspace = true
+goblin.workspace = true
+probdisasm.workspace = true
+flate2.workspace = true

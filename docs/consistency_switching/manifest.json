@@ -1,0 +1,46 @@
+{
+  "engine": "probdisasm",
+  "engine_path_dependency": "Cargo.toml -> ../probdisasm (no revision is pinned)",
+  "files": {
+    "switching.csv": {
+      "bytes": 16512,
+      "csv_data_last_changed": "2026-07-13T12:48:14-05:00",
+      "csv_data_last_changed_commit": "141d8e1b91843caf4719da21574508f7046e13fd",
+      "csv_tracked": true,
+      "data_rows": 80,
+      "engine": {
+        "commit": null,
+        "older_candidates": [
+          {
+            "commit": "b43ee428616a214e15fefc5a872e3152a1f3e952",
+            "date": "2026-07-11T13:31:11-05:00",
+            "short": "b43ee42",
+            "subject": "feat(analysis): read-only cavity-belief + surprise hook"
+          },
+          {
+            "commit": "0b80141f9321d100edd236d71808fa64a846900d",
+            "date": "2026-07-05T18:13:42-05:00",
+            "short": "0b80141",
+            "subject": "feat(analysis): opt-in forward decode-chain-consistency prior (chainfwd)"
+          },
+          {
+            "commit": "cb03961d46ac3c1607ebad339a1c2232a070f986",
+            "date": "2026-07-04T12:59:32-05:00",
+            "short": "cb03961",
+            "subject": "feat: entropy prior, DASSA weights, segment fallback"
+          }
+        ],
+        "reason": "No run log recorded the engine commit. The engine cannot have been newer than the CSV, so c62ead9 is the newest it could have been; any older commit is possible. This is a bound, not a record.",
+        "source": "inferred_upper_bound",
+        "upper_bound": {
+          "commit": "c62ead9b8d14b25164e68974b8822ac104eb1be5",
+          "date": "2026-07-12T13:20:16-05:00",
+          "short": "c62ead9",
+          "subject": "fix(hints): adopt probdisasm #18 corrected coincidence priors"
+        }
+      },
+      "sha256": "29ecd0a11d84386ac7f728a43caaacae7d698865d0f287b90b63f6c7ce85dc5b"
+    }
+  },
+  "schema": 1
+}

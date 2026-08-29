@@ -1,0 +1,5 @@
+# Format-exact GT for u10.upxlzma — derived from UPX's own b_info chain (NOT a disassembler).
+# 2 b_info blocks; p_filesize=22312.
+# field       label     vaddr_start   vaddr_end     file_start  file_end
+exec_segment  -         0x402000      0x4044fe      0x0       0x24fe
+compressed    NEGATIVE  0x40210c      0x4030e5      0x10c       0x10e5  provable data (4057 B)

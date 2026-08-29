@@ -1,0 +1,5 @@
+# Format-exact GT for dir_upx_nrv — derived from UPX's own b_info chain (NOT a disassembler).
+# 3 b_info blocks; p_filesize=285903.
+# field       label     vaddr_start   vaddr_end     file_start  file_end
+exec_segment  -         0x800000      0x80c6aa      0x0       0xc6aa
+compressed    NEGATIVE  0x800188      0x80ba72      0x188       0xba72  provable data (47338 B)

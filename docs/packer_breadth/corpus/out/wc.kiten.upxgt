@@ -1,0 +1,5 @@
+# ROUTING-ONLY placeholder window (whole first exec PT_LOAD) for wc.kiten.
+# NOT a provable-data oracle: this region is genuine stub/loader code; payload is OUT-OF-BAND.
+# Present only so the pipeline computes the GT-free signature/routing columns. ECE here is N/A.
+exec_segment  -         0x200000  0x202188  0x0  0x2188
+compressed    NEGATIVE  0x200000  0x202188  0x0  0x2188  PLACEHOLDER (code, not data)

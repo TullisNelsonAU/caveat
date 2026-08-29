@@ -1,0 +1,24 @@
+[package]
+name = "gauntlet"
+version = "0.1.0"          # experimental until promoted to crates/, then semver-stable
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+publish = false
+description = "Ground-truth-bearing adversarial binary corpus generator for disassembler evaluation"
+
+[lib]
+name = "gauntlet"
+path = "src/lib.rs"
+
+[[bin]]
+name = "gauntlet"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+serde = { workspace = true }
+serde_json.workspace = true
+evalkit.workspace = true
+probdisasm.workspace = true

@@ -1,0 +1,25 @@
+{
+  "engine": "probdisasm",
+  "engine_path_dependency": "Cargo.toml -> ../probdisasm (no revision is pinned)",
+  "files": {
+    "expanded.csv": {
+      "bytes": 118866,
+      "csv_data_last_changed": "2026-08-07T09:28:07-05:00",
+      "csv_data_last_changed_commit": "47c18604ec58948d946ff983deb4d83b2e22349f",
+      "csv_tracked": true,
+      "data_rows": 500,
+      "engine": {
+        "citation": "CORPUS_EXPANSION_RESULTS.md:14",
+        "citation_text": "committed RQ7 / ablation reproducibility. Engine of record `probdisasm feat/chainfwd-prior @ c62ead9`,",
+        "commit": "c62ead9b8d14b25164e68974b8822ac104eb1be5",
+        "date": "2026-07-12T13:20:16-05:00",
+        "reason": "declared by hand in this directory's documentation and verified against probdisasm history; no run log recorded it independently",
+        "short": "c62ead9",
+        "source": "recorded_in_doc",
+        "subject": "fix(hints): adopt probdisasm #18 corrected coincidence priors"
+      },
+      "sha256": "4a4f62fdc8bdf99d43913141ffe7d17bfcf6e65f09d7f7819b59270f8e1921ab"
+    }
+  },
+  "schema": 1
+}

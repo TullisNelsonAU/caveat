@@ -1,0 +1,23 @@
+{
+  "artifact": "switch_dense.elf__native-code-in-data",
+  "generator": "native-code-in-data",
+  "generator_version": "0.1.0",
+  "bucket": "A:layout-encoding",
+  "seed": {
+    "name": "switch_dense.elf",
+    "path": "/home/anon/lab/projects/upd-suite-stack/corpus_pie/seeds/switch_dense.elf",
+    "content_hash": "fnv1a64:859cc2f200b62bdd"
+  },
+  "params": {
+    "data_kind": "code",
+    "region_bytes": 4096,
+    "seed_rng": 11400714819323198485
+  },
+  "transform_chain": [
+    "native-code-in-data"
+  ],
+  "tool_versions": {},
+  "created_unix": 1783300309,
+  "gt_provenance": "code half: gen-gt validated starts; decoy half: real code tiled past the entry, unreachable, so provably not instruction starts",
+  "binary_hash": "fnv1a64:786e85b0131aa6f5"
+}

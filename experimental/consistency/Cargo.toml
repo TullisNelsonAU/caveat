@@ -1,0 +1,56 @@
+[package]
+name = "consistency"
+version = "0.0.0"          # experimental: the Paper-2 cavity-consistency go/no-go gate
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+publish = false            # lives in experimental/, not released yet
+
+# The bank / classifier / corpus-split machinery, shared by the switching and downstream probes.
+[lib]
+name = "consistency"
+path = "src/lib.rs"
+
+[[bin]]
+name = "consistency"
+path = "src/main.rs"
+
+# Paper-2 payoff: consistency-driven calibration-map switching (the bank + the two GT-free
+# selection rules + the three-arm held-out eval).
+[[bin]]
+name = "switching"
+path = "src/bin/switching.rs"
+
+# Regime-adaptive calibration probe: does map-switching generalize to *benign* build regimes
+# (optimization level) the way it does under obfuscation? Same machinery, opt-level maps.
+[[bin]]
+name = "optregime"
+path = "src/bin/optregime.rs"
+
+# The downstream payoff: what the stale map does to a real accept-as-code-at-τ analyst decision,
+# graded as precision/recall against gen-gt rather than as ECE.
+[[bin]]
+name = "downstream"
+path = "src/bin/downstream.rs"
+
+[[bin]]
+name = "firerate"
+path = "src/bin/firerate.rs"
+
+# Re-thresholds every committed signature table under the size-aware spatial null T(n), calling the
+# shipped decision functions so the replayed rule cannot drift from the one the paper describes.
+[[bin]]
+name = "spatial_null_repair"
+path = "src/bin/spatial_null_repair.rs"
+
+# Reconciles the two committed Tigress statistic/decision files by re-measuring the arm in one pass,
+# emitting each decision beside the inputs it was made from.
+[[bin]]
+name = "tigress_reconcile"
+path = "src/bin/tigress_reconcile.rs"
+
+[dependencies]
+anyhow.workspace = true
+evalkit.workspace = true
+probdisasm.workspace = true

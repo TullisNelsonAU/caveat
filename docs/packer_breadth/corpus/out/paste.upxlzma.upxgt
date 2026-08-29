@@ -1,0 +1,5 @@
+# Format-exact GT for paste.upxlzma — derived from UPX's own b_info chain (NOT a disassembler).
+# 3 b_info blocks; p_filesize=94939.
+# field       label     vaddr_start   vaddr_end     file_start  file_end
+exec_segment  -         0x800000      0x804456      0x0       0x4456
+compressed    NEGATIVE  0x80010c      0x80303e      0x10c       0x303e  provable data (12082 B)

@@ -1,0 +1,17 @@
+{
+  "n_holdout": 500,
+  "sel_mmae_sglob": 0.4480,
+  "sel_mmae_nis": 0.4680,
+  "sel_classifier_centroid": 0.9840,
+  "sel_classifier_rule": 0.9780,
+  "sel_guard": 1.0000,
+  "rule_glob_hi": 2.5147,
+  "rule_spat_hi": 0.1052,
+  "pack_ent_lo": 7.1688,
+  "regime_benign": {"n": 300, "ece_always_benign": 0.0029, "ece_oracle": 0.0029, "ece_rule": 0.0130, "ece_guard": 0.0029, "med_always_benign": 0.0027, "med_oracle": 0.0027, "med_rule": 0.0027, "med_guard": 0.0027},
+  "regime_obfuscated": {"n": 200, "ece_always_benign": 0.0695, "ece_oracle": 0.0232, "ece_rule": 0.0232, "ece_guard": 0.0232, "med_always_benign": 0.0648, "med_oracle": 0.0249, "med_rule": 0.0249, "med_guard": 0.0249},
+  "sel_benign": {"mmae": 0.7467, "mmae_nis": 0.7800, "clf": 0.9733, "rule": 0.9633, "guard": 1.0000},
+  "sel_obfuscated": {"mmae": 0.0000, "mmae_nis": 0.0000, "clf": 1.0000, "rule": 1.0000, "guard": 1.0000},
+  "recovery_obfuscated": {"rule": 1.0000, "guard": 1.0000},
+  "_end": true
+}

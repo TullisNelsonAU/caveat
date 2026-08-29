@@ -1,0 +1,5 @@
+# Format-exact GT for k10.upxnrv — derived from UPX's own b_info chain (NOT a disassembler).
+# 4 b_info blocks; p_filesize=28104.
+# field       label     vaddr_start   vaddr_end     file_start  file_end
+exec_segment  -         0x403000      0x404aad      0x0       0x1aad
+compressed    NEGATIVE  0x40310c      0x403fbe      0x10c       0xfbe  provable data (3762 B)

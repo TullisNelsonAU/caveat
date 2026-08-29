@@ -1,0 +1,9 @@
+name,seg_bytes,loader_prefix,legacy_window_bytes,legacy_window_ent,validated_window_bytes,validated_window_ent,gt_kind
+u01.kite,15707,8584,7123,5.7891,0,0.0000,routing_only
+u02.kite,15773,8584,7189,5.8280,0,0.0000,routing_only
+u03.kite,15856,8584,7272,5.8725,0,0.0000,routing_only
+u04.kite,15922,8584,7338,5.9115,0,0.0000,routing_only
+u06.kite,16054,8584,7470,5.9785,512,7.4387,routing_only
+u08.kite,16186,8584,7602,6.0321,512,7.6716,routing_only
+u10.kite,16401,8584,7817,6.1215,512,7.5935,routing_only
+u12.kite,16797,8584,8213,6.2692,1024,7.7967,provable_data

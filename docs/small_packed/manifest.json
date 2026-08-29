@@ -1,0 +1,33 @@
+{
+  "engine": "probdisasm",
+  "engine_path_dependency": "Cargo.toml -> ../probdisasm (no revision is pinned)",
+  "files": {
+    "small_packed_master.csv": {
+      "bytes": 26508,
+      "csv_data_last_changed": null,
+      "csv_data_last_changed_commit": null,
+      "csv_tracked": false,
+      "data_rows": 143,
+      "engine": {
+        "commit": null,
+        "reason": "CSV is untracked, so there is no commit date to bound against",
+        "source": "unknown"
+      },
+      "sha256": "0ea441bfbe85b43173d8522e5c31509737e07585c26f5a1b743f6da640767a6c"
+    },
+    "switching_small_packed.csv": {
+      "bytes": 9614,
+      "csv_data_last_changed": null,
+      "csv_data_last_changed_commit": null,
+      "csv_tracked": false,
+      "data_rows": 39,
+      "engine": {
+        "commit": null,
+        "reason": "CSV is untracked, so there is no commit date to bound against",
+        "source": "unknown"
+      },
+      "sha256": "72a8809d90995e8881a7681840ddc3b77428b7c99bfdc23bf7fa93afcf9d7a9c"
+    }
+  },
+  "schema": 1
+}

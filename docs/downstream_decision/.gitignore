@@ -1,0 +1,3 @@
+run_tigress_*.log
+run_*.log
+supervise_*.log

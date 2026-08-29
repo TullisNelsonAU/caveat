@@ -1,0 +1,5 @@
+# Format-exact GT for u12.upxnrv — derived from UPX's own b_info chain (NOT a disassembler).
+# 2 b_info blocks; p_filesize=25648.
+# field       label     vaddr_start   vaddr_end     file_start  file_end
+exec_segment  -         0x402000      0x403e7d      0x0       0x1e7d
+compressed    NEGATIVE  0x40210c      0x40338a      0x10c       0x138a  provable data (4734 B)

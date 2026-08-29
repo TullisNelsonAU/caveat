@@ -1,0 +1,23 @@
+[package]
+name = "rewrite"
+version = "0.0.0"          # experimental: confidence-gated binary rewriter (Paper 2's "so what")
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+publish = false
+
+[[bin]]
+name = "rewrite"
+path = "src/bin/rewrite.rs"
+
+[lib]
+name = "rewrite"
+path = "src/lib.rs"
+
+[dependencies]
+anyhow.workspace = true
+goblin.workspace = true
+capstone.workspace = true
+serde.workspace = true
+serde_json.workspace = true

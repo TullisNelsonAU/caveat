@@ -1,0 +1,5 @@
+# Format-exact GT for ls_upx_lzma — derived from UPX's own b_info chain (NOT a disassembler).
+# 3 b_info blocks; p_filesize=285902.
+# field       label     vaddr_start   vaddr_end     file_start  file_end
+exec_segment  -         0x800000      0x80abc3      0x0       0xabc3
+compressed    NEGATIVE  0x800188      0x809a7a      0x188       0x9a7a  provable data (39154 B)

@@ -1,0 +1,5 @@
+# Format-exact GT for fold.upxlzma — derived from UPX's own b_info chain (NOT a disassembler).
+# 3 b_info blocks; p_filesize=96694.
+# field       label     vaddr_start   vaddr_end     file_start  file_end
+exec_segment  -         0x800000      0x8044f6      0x0       0x44f6
+compressed    NEGATIVE  0x80010c      0x8030dd      0x10c       0x30dd  provable data (12241 B)

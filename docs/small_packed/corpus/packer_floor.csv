@@ -1,0 +1,17 @@
+input,bytes,stripped,upxnrv,upxlzma,kite
+m01,1280,yes,CantPackException: file is too small,CantPackException: file is too small,binary is stripped; not applying inner encryption
+m02,1616,yes,CantPackException: file is too small,CantPackException: file is too small,binary is stripped; not applying inner encryption
+m03,2104,yes,CantPackException: file is too small,CantPackException: file is too small,binary is stripped; not applying inner encryption
+m04,2320,yes,CantPackException: file is too small,CantPackException: file is too small,binary is stripped; not applying inner encryption
+m06,2664,yes,CantPackException: file is too small,CantPackException: file is too small,binary is stripped; not applying inner encryption
+m08,3200,yes,CantPackException: file is too small,CantPackException: file is too small,binary is stripped; not applying inner encryption
+m10,4784,yes,NotCompressibleException,NotCompressibleException,binary is stripped; not applying inner encryption
+m12,5440,yes,NotCompressibleException,NotCompressibleException,binary is stripped; not applying inner encryption
+u01,4152,no,NotCompressibleException,NotCompressibleException,ok:16455B
+u02,5880,no,NotCompressibleException,NotCompressibleException,ok:16857B
+u03,8096,no,ok:7500B,NotCompressibleException,ok:17428B
+u04,9912,no,ok:8400B,NotCompressibleException,ok:17710B
+u06,12584,no,ok:9664B,ok:11356B,ok:18186B
+u08,16008,no,ok:11416B,ok:12944B,ok:18854B
+u10,22312,no,ok:14724B,ok:15932B,ok:20649B
+u12,25648,no,ok:16428B,ok:17452B,ok:21701B

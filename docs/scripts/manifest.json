@@ -1,0 +1,46 @@
+{
+  "engine": "probdisasm",
+  "engine_path_dependency": "Cargo.toml -> ../probdisasm (no revision is pinned)",
+  "files": {
+    "rewrite_curve.csv": {
+      "bytes": 1667,
+      "csv_data_last_changed": "2026-07-06T08:58:06-05:00",
+      "csv_data_last_changed_commit": "04cb6ed7fee642285a97f5cbc97704b7f9094fcb",
+      "csv_tracked": true,
+      "data_rows": 28,
+      "engine": {
+        "commit": null,
+        "older_candidates": [
+          {
+            "commit": "cb03961d46ac3c1607ebad339a1c2232a070f986",
+            "date": "2026-07-04T12:59:32-05:00",
+            "short": "cb03961",
+            "subject": "feat: entropy prior, DASSA weights, segment fallback"
+          },
+          {
+            "commit": "48e44ea0f290974e5d405bdbbef2fec940864a8c",
+            "date": "2026-06-06T10:52:55-05:00",
+            "short": "48e44ea",
+            "subject": "parallel BP: rayon-parallelize per-factor message loops (total_in serial for bit-identical output)"
+          },
+          {
+            "commit": "89490a0fc3601977ef026fab14eeabda97bf737a",
+            "date": "2026-06-06T10:43:49-05:00",
+            "short": "89490a0",
+            "subject": "checkpoint: known-good serial BP before rayon"
+          }
+        ],
+        "reason": "No run log recorded the engine commit. The engine cannot have been newer than the CSV, so 0b80141 is the newest it could have been; any older commit is possible. This is a bound, not a record.",
+        "source": "inferred_upper_bound",
+        "upper_bound": {
+          "commit": "0b80141f9321d100edd236d71808fa64a846900d",
+          "date": "2026-07-05T18:13:42-05:00",
+          "short": "0b80141",
+          "subject": "feat(analysis): opt-in forward decode-chain-consistency prior (chainfwd)"
+        }
+      },
+      "sha256": "1aaf7e22a4e6e4514e923b7fe298dbb6ed79b484a4f75d5ceaf1c01cb89520da"
+    }
+  },
+  "schema": 1
+}

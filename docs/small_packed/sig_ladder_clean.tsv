@@ -1,0 +1,9 @@
+name	label	n	code_bytes	region_ent	s_glob	s_spat	t_floored	fire_flat	fire_floored	rule_pick	guard_pick	rule_pick_floored	guard_pick_floored
+k01	ladder_clean	288	316	5.120628	1.072310	-0.029754	0.460288	false	false	benign	benign	benign	benign
+k02	ladder_clean	487	533	5.573934	0.784283	-0.068289	0.369958	false	false	benign	benign	benign	benign
+k03	ladder_clean	823	914	5.763258	0.713879	-0.065110	0.300563	false	false	benign	benign	benign	benign
+k04	ladder_clean	978	1080	5.804694	0.634081	-0.057300	0.281442	false	false	benign	benign	benign	benign
+k06	ladder_clean	1158	1280	5.834604	0.571132	-0.068225	0.264252	false	false	benign	benign	benign	benign
+k08	ladder_clean	1579	1728	5.975894	1.374980	0.025089	0.236242	false	false	benign	benign	benign	benign
+k10	ladder_clean	2784	3082	5.975894	1.340010	0.051389	0.195008	false	false	benign	benign	benign	benign
+k12	ladder_clean	3228	3564	5.991499	1.224233	0.069781	0.186038	false	false	benign	benign	benign	benign

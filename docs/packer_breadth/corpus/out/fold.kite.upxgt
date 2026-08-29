@@ -1,0 +1,4 @@
+# Entropy-validated NEGATIVE window for fold.kite (kiteshield in-place RC4).
+# loader prefix=8584B (const, = -n build segment); tail=13889B entropy=7.209 b/byte = encrypted data.
+exec_segment  -         0x200000  0x2057c9  0x0  0x57c9
+compressed    NEGATIVE  0x202188  0x2057c9  0x2188  0x57c9  encrypted data (13889 B, H=7.21)

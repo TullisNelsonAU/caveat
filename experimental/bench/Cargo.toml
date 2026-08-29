@@ -1,0 +1,18 @@
+[package]
+name = "bench"
+version = "0.0.0"          # experimental: instruction-recovery P/R of Soft vs ground truth
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+publish = false
+
+[[bin]]
+name = "bench"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+evalkit.workspace = true
+probdisasm.workspace = true
+probcfg = { path = "../probcfg" }

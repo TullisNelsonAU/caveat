@@ -1,0 +1,16 @@
+[package]
+name = "forge"
+version = "0.0.0"          # experimental: emits adversarial two-sided-GT binaries + a true-instruction log
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+publish = false
+
+[[bin]]
+name = "forge"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+evalkit.workspace = true

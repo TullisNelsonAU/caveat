@@ -1,0 +1,43 @@
+{
+  "engine": "probdisasm",
+  "engine_path_dependency": "Cargo.toml -> ../probdisasm (no revision is pinned)",
+  "files": {
+    "breadth_ezuri.csv": {
+      "bytes": 5821,
+      "csv_data_last_changed": "2026-08-06T21:28:07-05:00",
+      "csv_data_last_changed_commit": "1bfcf72f683adb04430cafa1c093735f7e77b87c",
+      "csv_tracked": true,
+      "data_rows": 24,
+      "engine": {
+        "citation": "PACKER_BREADTH_RESULTS.md:8",
+        "citation_text": "Engine of record: probdisasm `feat/chainfwd-prior @ c62ead9`. Binary: `switching` (regime worktree,",
+        "commit": "c62ead9b8d14b25164e68974b8822ac104eb1be5",
+        "date": "2026-07-12T13:20:16-05:00",
+        "reason": "declared by hand in this directory's documentation and verified against probdisasm history; no run log recorded it independently",
+        "short": "c62ead9",
+        "source": "recorded_in_doc",
+        "subject": "fix(hints): adopt probdisasm #18 corrected coincidence priors"
+      },
+      "sha256": "005a852e9e9c9236b16c653bb345bd470591d98aa499f2d74197a2117e9b8bf5"
+    },
+    "breadth_main.csv": {
+      "bytes": 13708,
+      "csv_data_last_changed": "2026-08-04T18:59:31-05:00",
+      "csv_data_last_changed_commit": "e0dac7afec76ac4c6170caf1ebed0f6cc5e86ad5",
+      "csv_tracked": true,
+      "data_rows": 60,
+      "engine": {
+        "citation": "PACKER_BREADTH_RESULTS.md:8",
+        "citation_text": "Engine of record: probdisasm `feat/chainfwd-prior @ c62ead9`. Binary: `switching` (regime worktree,",
+        "commit": "c62ead9b8d14b25164e68974b8822ac104eb1be5",
+        "date": "2026-07-12T13:20:16-05:00",
+        "reason": "declared by hand in this directory's documentation and verified against probdisasm history; no run log recorded it independently",
+        "short": "c62ead9",
+        "source": "recorded_in_doc",
+        "subject": "fix(hints): adopt probdisasm #18 corrected coincidence priors"
+      },
+      "sha256": "2897b5e63bdb5b8e292b2a6fa812ebba4cefb52eca8f5abef7453f7241cf1bb1"
+    }
+  },
+  "schema": 1
+}

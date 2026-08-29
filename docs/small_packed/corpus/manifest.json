@@ -1,0 +1,72 @@
+{
+  "engine": "probdisasm",
+  "engine_path_dependency": "Cargo.toml -> ../probdisasm (no revision is pinned)",
+  "files": {
+    "breadth_kite_window_audit.csv": {
+      "bytes": 773,
+      "csv_data_last_changed": null,
+      "csv_data_last_changed_commit": null,
+      "csv_tracked": false,
+      "data_rows": 12,
+      "engine": {
+        "commit": null,
+        "reason": "CSV is untracked, so there is no commit date to bound against",
+        "source": "unknown"
+      },
+      "sha256": "5a46768c2e853a68f261a0bef56da8c654eb1768e3c40c64b486344313212721"
+    },
+    "kite_gt_validation.csv": {
+      "bytes": 675,
+      "csv_data_last_changed": null,
+      "csv_data_last_changed_commit": null,
+      "csv_tracked": false,
+      "data_rows": 9,
+      "engine": {
+        "commit": null,
+        "reason": "CSV is untracked, so there is no commit date to bound against",
+        "source": "unknown"
+      },
+      "sha256": "5fa4a96524587ffe7f82fb64700f95d20fd5902ffc4eb14e1b8a7b01b9ebd8ce"
+    },
+    "kite_gt_validation_ladder.csv": {
+      "bytes": 561,
+      "csv_data_last_changed": null,
+      "csv_data_last_changed_commit": null,
+      "csv_tracked": false,
+      "data_rows": 8,
+      "engine": {
+        "commit": null,
+        "reason": "CSV is untracked, so there is no commit date to bound against",
+        "source": "unknown"
+      },
+      "sha256": "2d35828f9aab12e2c2e73af0df787964f3c4822fc8fb13e02bc2ca4b8e0c6a4d"
+    },
+    "kite_gt_validation_minu.csv": {
+      "bytes": 561,
+      "csv_data_last_changed": null,
+      "csv_data_last_changed_commit": null,
+      "csv_tracked": false,
+      "data_rows": 8,
+      "engine": {
+        "commit": null,
+        "reason": "CSV is untracked, so there is no commit date to bound against",
+        "source": "unknown"
+      },
+      "sha256": "42115edfbe0ae6d8880ffb178d5d33850c252df731769fe9776136c65ffa62b0"
+    },
+    "packer_floor.csv": {
+      "bytes": 1516,
+      "csv_data_last_changed": null,
+      "csv_data_last_changed_commit": null,
+      "csv_tracked": false,
+      "data_rows": 16,
+      "engine": {
+        "commit": null,
+        "reason": "CSV is untracked, so there is no commit date to bound against",
+        "source": "unknown"
+      },
+      "sha256": "f938cb8d874a4ff7315a90c71c8ba2a9cf1bb77a1e15976f7dc5bc1acf8e33aa"
+    }
+  },
+  "schema": 1
+}

@@ -1,0 +1,10 @@
+name,seg_bytes,loader_prefix,legacy_window_bytes,legacy_window_ent,validated_window_bytes,validated_window_ent,gt_kind
+p01_statemachine.kite,15773,8584,7189,5.8289,0,0.0000,routing_only
+p02_insertsort.kite,15773,8584,7189,5.8264,0,0.0000,routing_only
+p05_vm.kite,15790,8584,7206,5.8358,0,0.0000,routing_only
+p06_parser.kite,15773,8584,7189,5.8281,0,0.0000,routing_only
+p07_crc.kite,15773,8584,7189,5.8299,0,0.0000,routing_only
+p08_binsearch.kite,15773,8584,7189,5.8277,0,0.0000,routing_only
+p09_matmul.kite,15773,8584,7189,5.8259,0,0.0000,routing_only
+p10_collatz.kite,15773,8584,7189,5.8275,0,0.0000,routing_only
+p12_modpow.kite,15773,8584,7189,5.8250,0,0.0000,routing_only

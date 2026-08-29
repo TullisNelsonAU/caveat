@@ -1,0 +1,5 @@
+# Format-exact GT for p12_modpow.upxlzma — derived from UPX's own b_info chain (NOT a disassembler).
+# 5 b_info blocks; p_filesize=21112.
+# field       label     vaddr_start   vaddr_end     file_start  file_end
+exec_segment  -         0x405000      0x406a76      0x0       0x1a76
+compressed    NEGATIVE  0x40510c      0x40565d      0x10c       0x65d  provable data (1361 B)

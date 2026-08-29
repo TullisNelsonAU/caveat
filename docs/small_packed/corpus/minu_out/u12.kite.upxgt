@@ -1,0 +1,4 @@
+# Entropy-validated NEGATIVE window for u12.kite (kiteshield in-band).
+# Suffix of the first exec PT_LOAD whose 512B blocks all clear 7.0 b/byte: 1024 B, H=7.797.
+exec_segment  -         0x200000  0x20419d  0x0  0x419d
+compressed    NEGATIVE  0x203d9d  0x20419d  0x3d9d  0x419d  encrypted data (1024 B, H=7.80)

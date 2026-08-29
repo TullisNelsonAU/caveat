@@ -1,0 +1,19 @@
+[package]
+name = "adversary"
+version = "0.1.0"
+edition.workspace = true
+
+# Adaptive-adversary probe for the Paper 2 cavity-surprise consistency detector.
+# One question: can a binary be miscalibrated (true ECE up) AND internally consistent
+# (cavity surprise below the clean null), and if evasion is possible, what does it cost
+# the adversary in obfuscation strength? Reuses the #18 engine + evalkit metrics; builds
+# controlled constructions with ground truth by construction (we emit them).
+[[bin]]
+name = "adversary"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+evalkit = { path = "../evalkit" }
+probdisasm.workspace = true
+flate2.workspace = true

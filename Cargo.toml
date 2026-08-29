@@ -1,0 +1,41 @@
+# upd-suite — the umbrella workspace for the probabilistic-disassembly research program.
+#
+# Layout (the workflow we work to):
+#   experimental/*  — proving ground. New crates start here; they don't have to be
+#                     pretty or stable yet, they just have to build in the workspace.
+#   crates/*        — promoted, releasable, public. A crate moves here once it's
+#                     solid: tested, documented, semver-stable. `git mv` is the promotion.
+#
+# The foundation engine is the engine author's `probdisasm` (we're maintainers on it): depend on it,
+# upstream the general fixes, keep our layers (Soft BP, GT, obfuscation, calibration) in
+# our own crates on top. The frozen ICSE artifact lives OUTSIDE this tree on purpose.
+[workspace]
+resolver = "2"
+members = ["crates/*", "experimental/*"]
+
+[workspace.package]
+edition = "2021"
+license = "MIT"
+authors = ["Anonymous Author(s)"]
+repository = "https://anonymous.4open.science/r/caveat-F0B8/"
+rust-version = "1.85"
+
+# Shared dependency versions so every crate pulls the same ones. A member opts in with
+# e.g. `anyhow.workspace = true`. Keep this list as the single source of truth.
+[workspace.dependencies]
+anyhow = "1"
+goblin = "0.10"
+gimli = "0.31"
+capstone = "0.14"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rayon = "1"
+flate2 = "1"
+# The foundation engine (the engine author's; our local working copy for now). Path dependency until
+# the local changes are pushed upstream, then this becomes a git/crates.io dependency.
+probdisasm = { path = "engine/probdisasm" }
+# Shared eval machinery (metrics, Soft runner, synthetic-data generator).
+evalkit = { path = "experimental/evalkit" }
+
+[profile.release]
+opt-level = 3

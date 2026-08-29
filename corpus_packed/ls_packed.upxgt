@@ -1,0 +1,15 @@
+# Perfect ground truth for ls_packed (UPX 5.2, linux/amd64)
+# Derived from UPX's own b_info chain — NOT from entropy or any disassembler.
+# Validated 4 ways: p_filesize matches original; b_info blocks tile contiguously;
+# payload entropy 7.9b vs header 2.4b; entry disassembles as a real CET stub.
+#
+# field       label       vaddr_start   vaddr_end     file_start  file_end   notes
+exec_segment  -           0x800000      0x80ce03      0x0         0xce03     R+X PT_LOAD the engine analyzes (52739 B)
+headers       -           0x800000      0x800188      0x0         0x188      ELF/NOTE/l_info/p_info (entropy 2.4b)
+compressed    NEGATIVE    0x800188      0x80c1b6      0x188       0xc1b6     provable data, 48686 B (entropy 7.9b)
+conservative  NEGATIVE    0x80024c      0x80bf9d      0x24c       0xbf9d     largest block, interior, 48465 B
+stub          excluded    0x80c1c0      0x80ce03      0xc1c0      0xce03     real code (endbr64; ...), 3139 B
+#
+# b_info chain (file offsets): @0x17c unc=512 cpr=184 ; @0x240 unc=109996 cpr=48465 ;
+#                              @0xbf9d unc=2060 cpr=525  -> payload ends 0xc1b6
+# p_info: p_filesize = 535803 (== original ls_unpacked size)

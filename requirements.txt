@@ -1,0 +1,14 @@
+# Optional. Every NUMBER in the paper is reproducible with the Python standard
+# library alone -- these are only needed to regenerate figures and two
+# supplementary analyses.
+#
+#   pip install -r requirements.txt
+#
+matplotlib        # paper figures (analyze_credibility.py, analyze_switching.py);
+                  # both guard the import and print their tables without it
+numpy             # spatial_null_repair/variance_gate.py, figures/
+scipy             # spatial_null_repair/variance_gate.py
+
+# Needed only by docs/regime_calibration/analyze_optregime.py, an exploratory
+# arm that backs no claim in the paper (see README, Known Gaps).
+scikit-learn

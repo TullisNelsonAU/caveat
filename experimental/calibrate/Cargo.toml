@@ -1,0 +1,12 @@
+[package]
+name = "calibrate"
+version = "0.0.0"          # experimental: the calibration-preserving fusion operator (Layer-3 atom)
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+publish = false
+
+[dependencies]
+# Reuse evalkit::IsotonicMap AS-IS (the S2 recalibration map). Do NOT move code out of evalkit.
+evalkit.workspace = true

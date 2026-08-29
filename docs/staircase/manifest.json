@@ -1,0 +1,358 @@
+{
+  "engine": "probdisasm",
+  "engine_path_dependency": "Cargo.toml -> ../probdisasm (no revision is pinned)",
+  "files": {
+    "decode_leak.csv": {
+      "bytes": 1584,
+      "csv_data_last_changed": "2026-07-06T12:26:43-05:00",
+      "csv_data_last_changed_commit": "aa4a139ee714cee75d33c437147a241512c35403",
+      "csv_tracked": true,
+      "data_rows": 20,
+      "engine": {
+        "commit": null,
+        "older_candidates": [
+          {
+            "commit": "cb03961d46ac3c1607ebad339a1c2232a070f986",
+            "date": "2026-07-04T12:59:32-05:00",
+            "short": "cb03961",
+            "subject": "feat: entropy prior, DASSA weights, segment fallback"
+          },
+          {
+            "commit": "48e44ea0f290974e5d405bdbbef2fec940864a8c",
+            "date": "2026-06-06T10:52:55-05:00",
+            "short": "48e44ea",
+            "subject": "parallel BP: rayon-parallelize per-factor message loops (total_in serial for bit-identical output)"
+          },
+          {
+            "commit": "89490a0fc3601977ef026fab14eeabda97bf737a",
+            "date": "2026-06-06T10:43:49-05:00",
+            "short": "89490a0",
+            "subject": "checkpoint: known-good serial BP before rayon"
+          }
+        ],
+        "reason": "No run log recorded the engine commit. The engine cannot have been newer than the CSV, so 0b80141 is the newest it could have been; any older commit is possible. This is a bound, not a record.",
+        "source": "inferred_upper_bound",
+        "upper_bound": {
+          "commit": "0b80141f9321d100edd236d71808fa64a846900d",
+          "date": "2026-07-05T18:13:42-05:00",
+          "short": "0b80141",
+          "subject": "feat(analysis): opt-in forward decode-chain-consistency prior (chainfwd)"
+        }
+      },
+      "sha256": "532361670a10e2303643c548ed44cdb47d034563d08ef8a8b535d4af57899641"
+    },
+    "eig_faithful.csv": {
+      "bytes": 10274,
+      "csv_data_last_changed": "2026-07-06T14:04:27-05:00",
+      "csv_data_last_changed_commit": "edb1590d2a984b1efc87792b57b360c1c5b3053b",
+      "csv_tracked": true,
+      "data_rows": 160,
+      "engine": {
+        "commit": null,
+        "older_candidates": [
+          {
+            "commit": "cb03961d46ac3c1607ebad339a1c2232a070f986",
+            "date": "2026-07-04T12:59:32-05:00",
+            "short": "cb03961",
+            "subject": "feat: entropy prior, DASSA weights, segment fallback"
+          },
+          {
+            "commit": "48e44ea0f290974e5d405bdbbef2fec940864a8c",
+            "date": "2026-06-06T10:52:55-05:00",
+            "short": "48e44ea",
+            "subject": "parallel BP: rayon-parallelize per-factor message loops (total_in serial for bit-identical output)"
+          },
+          {
+            "commit": "89490a0fc3601977ef026fab14eeabda97bf737a",
+            "date": "2026-06-06T10:43:49-05:00",
+            "short": "89490a0",
+            "subject": "checkpoint: known-good serial BP before rayon"
+          }
+        ],
+        "reason": "No run log recorded the engine commit. The engine cannot have been newer than the CSV, so 0b80141 is the newest it could have been; any older commit is possible. This is a bound, not a record.",
+        "source": "inferred_upper_bound",
+        "upper_bound": {
+          "commit": "0b80141f9321d100edd236d71808fa64a846900d",
+          "date": "2026-07-05T18:13:42-05:00",
+          "short": "0b80141",
+          "subject": "feat(analysis): opt-in forward decode-chain-consistency prior (chainfwd)"
+        }
+      },
+      "sha256": "ac311fc841b32f135597135e1ad663033e2d30b7f6891780786152730fcc8340"
+    },
+    "eig_vs_greedy.csv": {
+      "bytes": 3887,
+      "csv_data_last_changed": "2026-07-06T12:26:43-05:00",
+      "csv_data_last_changed_commit": "aa4a139ee714cee75d33c437147a241512c35403",
+      "csv_tracked": true,
+      "data_rows": 80,
+      "engine": {
+        "commit": null,
+        "older_candidates": [
+          {
+            "commit": "cb03961d46ac3c1607ebad339a1c2232a070f986",
+            "date": "2026-07-04T12:59:32-05:00",
+            "short": "cb03961",
+            "subject": "feat: entropy prior, DASSA weights, segment fallback"
+          },
+          {
+            "commit": "48e44ea0f290974e5d405bdbbef2fec940864a8c",
+            "date": "2026-06-06T10:52:55-05:00",
+            "short": "48e44ea",
+            "subject": "parallel BP: rayon-parallelize per-factor message loops (total_in serial for bit-identical output)"
+          },
+          {
+            "commit": "89490a0fc3601977ef026fab14eeabda97bf737a",
+            "date": "2026-06-06T10:43:49-05:00",
+            "short": "89490a0",
+            "subject": "checkpoint: known-good serial BP before rayon"
+          }
+        ],
+        "reason": "No run log recorded the engine commit. The engine cannot have been newer than the CSV, so 0b80141 is the newest it could have been; any older commit is possible. This is a bound, not a record.",
+        "source": "inferred_upper_bound",
+        "upper_bound": {
+          "commit": "0b80141f9321d100edd236d71808fa64a846900d",
+          "date": "2026-07-05T18:13:42-05:00",
+          "short": "0b80141",
+          "subject": "feat(analysis): opt-in forward decode-chain-consistency prior (chainfwd)"
+        }
+      },
+      "sha256": "b543af702099d255ff0fdd0471a22092cc84709cc1ba2b7664526238a48b81dc"
+    },
+    "k3_decoy_heavy.csv": {
+      "bytes": 2286,
+      "csv_data_last_changed": "2026-07-06T16:58:24-05:00",
+      "csv_data_last_changed_commit": "a32958eb2a7ae6dc34108259a6ac00fcf3bacdc5",
+      "csv_tracked": true,
+      "data_rows": 5,
+      "engine": {
+        "commit": null,
+        "older_candidates": [
+          {
+            "commit": "cb03961d46ac3c1607ebad339a1c2232a070f986",
+            "date": "2026-07-04T12:59:32-05:00",
+            "short": "cb03961",
+            "subject": "feat: entropy prior, DASSA weights, segment fallback"
+          },
+          {
+            "commit": "48e44ea0f290974e5d405bdbbef2fec940864a8c",
+            "date": "2026-06-06T10:52:55-05:00",
+            "short": "48e44ea",
+            "subject": "parallel BP: rayon-parallelize per-factor message loops (total_in serial for bit-identical output)"
+          },
+          {
+            "commit": "89490a0fc3601977ef026fab14eeabda97bf737a",
+            "date": "2026-06-06T10:43:49-05:00",
+            "short": "89490a0",
+            "subject": "checkpoint: known-good serial BP before rayon"
+          }
+        ],
+        "reason": "No run log recorded the engine commit. The engine cannot have been newer than the CSV, so 0b80141 is the newest it could have been; any older commit is possible. This is a bound, not a record.",
+        "source": "inferred_upper_bound",
+        "upper_bound": {
+          "commit": "0b80141f9321d100edd236d71808fa64a846900d",
+          "date": "2026-07-05T18:13:42-05:00",
+          "short": "0b80141",
+          "subject": "feat(analysis): opt-in forward decode-chain-consistency prior (chainfwd)"
+        }
+      },
+      "sha256": "2df4d0992d0ab6eabf255f6097b7b2a394adbad63c90419d59ae92259c3c9bce"
+    },
+    "staircase_ak.csv": {
+      "bytes": 8051,
+      "csv_data_last_changed": "2026-07-06T14:04:27-05:00",
+      "csv_data_last_changed_commit": "683b9837f3803d08b7354755ed89ca3c45a622e4",
+      "csv_tracked": true,
+      "data_rows": 50,
+      "engine": {
+        "commit": null,
+        "older_candidates": [
+          {
+            "commit": "cb03961d46ac3c1607ebad339a1c2232a070f986",
+            "date": "2026-07-04T12:59:32-05:00",
+            "short": "cb03961",
+            "subject": "feat: entropy prior, DASSA weights, segment fallback"
+          },
+          {
+            "commit": "48e44ea0f290974e5d405bdbbef2fec940864a8c",
+            "date": "2026-06-06T10:52:55-05:00",
+            "short": "48e44ea",
+            "subject": "parallel BP: rayon-parallelize per-factor message loops (total_in serial for bit-identical output)"
+          },
+          {
+            "commit": "89490a0fc3601977ef026fab14eeabda97bf737a",
+            "date": "2026-06-06T10:43:49-05:00",
+            "short": "89490a0",
+            "subject": "checkpoint: known-good serial BP before rayon"
+          }
+        ],
+        "reason": "No run log recorded the engine commit. The engine cannot have been newer than the CSV, so 0b80141 is the newest it could have been; any older commit is possible. This is a bound, not a record.",
+        "source": "inferred_upper_bound",
+        "upper_bound": {
+          "commit": "0b80141f9321d100edd236d71808fa64a846900d",
+          "date": "2026-07-05T18:13:42-05:00",
+          "short": "0b80141",
+          "subject": "feat(analysis): opt-in forward decode-chain-consistency prior (chainfwd)"
+        }
+      },
+      "sha256": "2530e1806ac14a6d708a3977e4c60b321f62505aaf5e96d904bba8c9a1475223"
+    },
+    "staircase_ak_plot.csv": {
+      "bytes": 781,
+      "csv_data_last_changed": "2026-07-06T14:04:27-05:00",
+      "csv_data_last_changed_commit": "683b9837f3803d08b7354755ed89ca3c45a622e4",
+      "csv_tracked": true,
+      "data_rows": 12,
+      "engine": {
+        "commit": null,
+        "older_candidates": [
+          {
+            "commit": "cb03961d46ac3c1607ebad339a1c2232a070f986",
+            "date": "2026-07-04T12:59:32-05:00",
+            "short": "cb03961",
+            "subject": "feat: entropy prior, DASSA weights, segment fallback"
+          },
+          {
+            "commit": "48e44ea0f290974e5d405bdbbef2fec940864a8c",
+            "date": "2026-06-06T10:52:55-05:00",
+            "short": "48e44ea",
+            "subject": "parallel BP: rayon-parallelize per-factor message loops (total_in serial for bit-identical output)"
+          },
+          {
+            "commit": "89490a0fc3601977ef026fab14eeabda97bf737a",
+            "date": "2026-06-06T10:43:49-05:00",
+            "short": "89490a0",
+            "subject": "checkpoint: known-good serial BP before rayon"
+          }
+        ],
+        "reason": "No run log recorded the engine commit. The engine cannot have been newer than the CSV, so 0b80141 is the newest it could have been; any older commit is possible. This is a bound, not a record.",
+        "source": "inferred_upper_bound",
+        "upper_bound": {
+          "commit": "0b80141f9321d100edd236d71808fa64a846900d",
+          "date": "2026-07-05T18:13:42-05:00",
+          "short": "0b80141",
+          "subject": "feat(analysis): opt-in forward decode-chain-consistency prior (chainfwd)"
+        }
+      },
+      "sha256": "79c799f03d5479e894aba1c70c96ed7a1ed8e2ba577093d5a8ffc30ee55c3935"
+    },
+    "staircase_plot.csv": {
+      "bytes": 421,
+      "csv_data_last_changed": "2026-07-06T12:26:43-05:00",
+      "csv_data_last_changed_commit": "aa4a139ee714cee75d33c437147a241512c35403",
+      "csv_tracked": true,
+      "data_rows": 7,
+      "engine": {
+        "commit": null,
+        "older_candidates": [
+          {
+            "commit": "cb03961d46ac3c1607ebad339a1c2232a070f986",
+            "date": "2026-07-04T12:59:32-05:00",
+            "short": "cb03961",
+            "subject": "feat: entropy prior, DASSA weights, segment fallback"
+          },
+          {
+            "commit": "48e44ea0f290974e5d405bdbbef2fec940864a8c",
+            "date": "2026-06-06T10:52:55-05:00",
+            "short": "48e44ea",
+            "subject": "parallel BP: rayon-parallelize per-factor message loops (total_in serial for bit-identical output)"
+          },
+          {
+            "commit": "89490a0fc3601977ef026fab14eeabda97bf737a",
+            "date": "2026-06-06T10:43:49-05:00",
+            "short": "89490a0",
+            "subject": "checkpoint: known-good serial BP before rayon"
+          }
+        ],
+        "reason": "No run log recorded the engine commit. The engine cannot have been newer than the CSV, so 0b80141 is the newest it could have been; any older commit is possible. This is a bound, not a record.",
+        "source": "inferred_upper_bound",
+        "upper_bound": {
+          "commit": "0b80141f9321d100edd236d71808fa64a846900d",
+          "date": "2026-07-05T18:13:42-05:00",
+          "short": "0b80141",
+          "subject": "feat(analysis): opt-in forward decode-chain-consistency prior (chainfwd)"
+        }
+      },
+      "sha256": "8d84d244bcc8d92921b79d4d8716f802dac28ac2cf72f52eb19318ddc3b3846a"
+    },
+    "staircase_raw.csv": {
+      "bytes": 38186,
+      "csv_data_last_changed": "2026-07-06T12:26:43-05:00",
+      "csv_data_last_changed_commit": "aa4a139ee714cee75d33c437147a241512c35403",
+      "csv_tracked": true,
+      "data_rows": 190,
+      "engine": {
+        "commit": null,
+        "older_candidates": [
+          {
+            "commit": "cb03961d46ac3c1607ebad339a1c2232a070f986",
+            "date": "2026-07-04T12:59:32-05:00",
+            "short": "cb03961",
+            "subject": "feat: entropy prior, DASSA weights, segment fallback"
+          },
+          {
+            "commit": "48e44ea0f290974e5d405bdbbef2fec940864a8c",
+            "date": "2026-06-06T10:52:55-05:00",
+            "short": "48e44ea",
+            "subject": "parallel BP: rayon-parallelize per-factor message loops (total_in serial for bit-identical output)"
+          },
+          {
+            "commit": "89490a0fc3601977ef026fab14eeabda97bf737a",
+            "date": "2026-06-06T10:43:49-05:00",
+            "short": "89490a0",
+            "subject": "checkpoint: known-good serial BP before rayon"
+          }
+        ],
+        "reason": "No run log recorded the engine commit. The engine cannot have been newer than the CSV, so 0b80141 is the newest it could have been; any older commit is possible. This is a bound, not a record.",
+        "source": "inferred_upper_bound",
+        "upper_bound": {
+          "commit": "0b80141f9321d100edd236d71808fa64a846900d",
+          "date": "2026-07-05T18:13:42-05:00",
+          "short": "0b80141",
+          "subject": "feat(analysis): opt-in forward decode-chain-consistency prior (chainfwd)"
+        }
+      },
+      "sha256": "5f96f180faffe9b77f4799481ed1f7eab892c7a3ace9a12072a373b41b76ec2f"
+    },
+    "tight_cell.csv": {
+      "bytes": 4011,
+      "csv_data_last_changed": "2026-07-06T12:26:43-05:00",
+      "csv_data_last_changed_commit": "aa4a139ee714cee75d33c437147a241512c35403",
+      "csv_tracked": true,
+      "data_rows": 30,
+      "engine": {
+        "commit": null,
+        "older_candidates": [
+          {
+            "commit": "cb03961d46ac3c1607ebad339a1c2232a070f986",
+            "date": "2026-07-04T12:59:32-05:00",
+            "short": "cb03961",
+            "subject": "feat: entropy prior, DASSA weights, segment fallback"
+          },
+          {
+            "commit": "48e44ea0f290974e5d405bdbbef2fec940864a8c",
+            "date": "2026-06-06T10:52:55-05:00",
+            "short": "48e44ea",
+            "subject": "parallel BP: rayon-parallelize per-factor message loops (total_in serial for bit-identical output)"
+          },
+          {
+            "commit": "89490a0fc3601977ef026fab14eeabda97bf737a",
+            "date": "2026-06-06T10:43:49-05:00",
+            "short": "89490a0",
+            "subject": "checkpoint: known-good serial BP before rayon"
+          }
+        ],
+        "reason": "No run log recorded the engine commit. The engine cannot have been newer than the CSV, so 0b80141 is the newest it could have been; any older commit is possible. This is a bound, not a record.",
+        "source": "inferred_upper_bound",
+        "upper_bound": {
+          "commit": "0b80141f9321d100edd236d71808fa64a846900d",
+          "date": "2026-07-05T18:13:42-05:00",
+          "short": "0b80141",
+          "subject": "feat(analysis): opt-in forward decode-chain-consistency prior (chainfwd)"
+        }
+      },
+      "sha256": "e7a2f2e92e57d61c046d0a2ecb0127e4a27d64d26776813d44500d6421e9af94"
+    }
+  },
+  "schema": 1
+}

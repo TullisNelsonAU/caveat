@@ -1,0 +1,3 @@
+# start	end	label	kind	note
+0x1050	0x13b1	code	real_code	benign payload (gen-gt instruction starts)
+0x13b1	0x23b1	data	junk_decoy	tiled real code placed past the entry, on no intended path

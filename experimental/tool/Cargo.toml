@@ -1,0 +1,24 @@
+[package]
+name = "tool"
+version = "0.0.0"          # experimental: the serializable analysis core + thin CLI (TOOL_CORE_CLI_SPEC)
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+publish = false            # lives in experimental/ until the result format is stable enough to promote
+
+[[bin]]
+name = "tool"
+path = "src/main.rs"
+
+# Read-only consumer of the engines. `tool` is the serialization boundary: it depends on the analysis
+# crates, adds serde ITSELF, and defines its own result types populated from their outputs. The engine
+# crates stay serde-free and untouched.
+[dependencies]
+anyhow.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+probdisasm.workspace = true
+evalkit.workspace = true
+probcfg = { path = "../probcfg" }   # not a workspace.dependency yet — pull it by path
+goblin.workspace = true             # ELF header fields (format/arch/entry) for the `binary` block

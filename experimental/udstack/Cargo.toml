@@ -1,0 +1,23 @@
+[package]
+name = "udstack"
+version = "0.0.0"          # experimental: the uncertainty-preserving stack orchestrator (Layer 3)
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+publish = false
+
+[[bin]]
+name = "udstack"
+path = "src/bin/udstack.rs"
+
+[dependencies]
+anyhow.workspace = true
+# Reuse, never refactor: evalkit (metrics + IsotonicMap), probdisasm (L1 Soft), probcfg (L2 fixpoint).
+evalkit.workspace = true
+probdisasm.workspace = true
+probcfg = { path = "../probcfg" }
+calibrate = { path = "../calibrate" }
+# Reuse the confidence-gated rewriter as a library: the `--rewrite` hook feeds the calibrated
+# instruction marginals this tool already computes straight into `rewrite::gated_rewrite`.
+rewrite = { path = "../rewrite" }

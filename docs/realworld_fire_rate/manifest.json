@@ -1,0 +1,43 @@
+{
+  "engine": "probdisasm",
+  "engine_path_dependency": "Cargo.toml -> ../probdisasm (no revision is pinned)",
+  "files": {
+    "firerate.csv": {
+      "bytes": 159175,
+      "csv_data_last_changed": "2026-08-08T21:54:47-05:00",
+      "csv_data_last_changed_commit": "93163bdf7b4c58107adaddbe1d17d8ad9eaf4c00",
+      "csv_tracked": true,
+      "data_rows": 1540,
+      "engine": {
+        "citation": "REALWORLD_FIRE_RATE_RESULTS.md:66",
+        "citation_text": "**Engine of record:** `probdisasm` `feat/chainfwd-prior` @ `c62ead9` (\"fix(hints): adopt probdisasm",
+        "commit": "c62ead9b8d14b25164e68974b8822ac104eb1be5",
+        "date": "2026-07-12T13:20:16-05:00",
+        "reason": "declared by hand in this directory's documentation and verified against probdisasm history; no run log recorded it independently",
+        "short": "c62ead9",
+        "source": "recorded_in_doc",
+        "subject": "fix(hints): adopt probdisasm #18 corrected coincidence priors"
+      },
+      "sha256": "00d9e06baa4a0f613c00451c5afbcdf515ab68dfcba4d410621ec33915de9475"
+    },
+    "firerate_large.csv": {
+      "bytes": 1921,
+      "csv_data_last_changed": "2026-08-08T21:54:47-05:00",
+      "csv_data_last_changed_commit": "93163bdf7b4c58107adaddbe1d17d8ad9eaf4c00",
+      "csv_tracked": true,
+      "data_rows": 15,
+      "engine": {
+        "citation": "REALWORLD_FIRE_RATE_RESULTS.md:66",
+        "citation_text": "**Engine of record:** `probdisasm` `feat/chainfwd-prior` @ `c62ead9` (\"fix(hints): adopt probdisasm",
+        "commit": "c62ead9b8d14b25164e68974b8822ac104eb1be5",
+        "date": "2026-07-12T13:20:16-05:00",
+        "reason": "declared by hand in this directory's documentation and verified against probdisasm history; no run log recorded it independently",
+        "short": "c62ead9",
+        "source": "recorded_in_doc",
+        "subject": "fix(hints): adopt probdisasm #18 corrected coincidence priors"
+      },
+      "sha256": "8b80cc2e4002cd2ee7e94525bb38cfe97b2a9529b8712a3f5d66cf0776bfc6b1"
+    }
+  },
+  "schema": 1
+}

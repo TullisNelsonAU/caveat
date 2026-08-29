@@ -1,0 +1,10 @@
+{
+  "levels": ["O0", "O1", "O2", "O3"],
+  "sel_sig_overall": 0.6042,
+  "sel_se_overall": 0.7083,
+  "regime_O0": {"n": 12, "ece_raw": 0.0127, "ece_default": 0.0037, "ece_oracle": 0.0025, "ece_sig": 0.0029, "ece_se": 0.0025},
+  "regime_O1": {"n": 12, "ece_raw": 0.0132, "ece_default": 0.0030, "ece_oracle": 0.0019, "ece_sig": 0.0022, "ece_se": 0.0021},
+  "regime_O2": {"n": 12, "ece_raw": 0.0183, "ece_default": 0.0024, "ece_oracle": 0.0024, "ece_sig": 0.0024, "ece_se": 0.0028},
+  "regime_O3": {"n": 12, "ece_raw": 0.0152, "ece_default": 0.0025, "ece_oracle": 0.0022, "ece_sig": 0.0028, "ece_se": 0.0023},
+  "_end": true
+}

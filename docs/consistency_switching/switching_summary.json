@@ -1,0 +1,19 @@
+{
+  "n_holdout": 80,
+  "sel_mmae_sglob": 0.3774,
+  "sel_mmae_nis": 0.3962,
+  "sel_classifier_centroid": 1.0000,
+  "sel_classifier_rule": 1.0000,
+  "rule_glob_hi": 2.5147,
+  "rule_spat_hi": 0.1052,
+  "regime_benign": {"n": 20, "ece_always_benign": 0.0027, "ece_oracle": 0.0027, "ece_mmae": 0.1121, "ece_clf": 0.0027, "ece_rule": 0.0027, "med_always_benign": 0.0026, "med_oracle": 0.0026, "med_clf": 0.0026, "med_rule": 0.0026},
+  "regime_packed": {"n": 8, "ece_always_benign": 0.3662, "ece_oracle": 0.0000, "ece_mmae": 0.0000, "ece_clf": 0.0000, "ece_rule": 0.0000, "med_always_benign": 0.3644, "med_oracle": 0.0000, "med_clf": 0.0000, "med_rule": 0.0000},
+  "regime_obfuscated": {"n": 25, "ece_always_benign": 0.0755, "ece_oracle": 0.0253, "ece_mmae": 0.1971, "ece_clf": 0.0253, "ece_rule": 0.0253, "med_always_benign": 0.0675, "med_oracle": 0.0252, "med_clf": 0.0252, "med_rule": 0.0252},
+  "sel_benign": {"mmae": 0.6000, "mmae_nis": 0.6500, "clf": 1.0000, "rule": 1.0000},
+  "sel_packed": {"mmae": 1.0000, "mmae_nis": 1.0000, "clf": 1.0000, "rule": 1.0000},
+  "sel_obfuscated": {"mmae": 0.0000, "mmae_nis": 0.0000, "clf": 1.0000, "rule": 1.0000},
+  "recovery_packed": {"clf": 1.0000, "rule": 1.0000},
+  "recovery_obfuscated": {"clf": 1.0000, "rule": 1.0000},
+  "tigress": {"n": 27, "ece_always_benign": 0.0328, "ece_oracle": 0.0991, "ece_mmae": 0.0328, "ece_clf": 0.2315, "ece_rule": 0.2417, "clf_sel_acc": 0.0000, "rule_sel_acc": 0.0000},
+  "_end": true
+}

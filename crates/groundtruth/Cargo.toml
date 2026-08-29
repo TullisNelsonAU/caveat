@@ -1,0 +1,18 @@
+[package]
+name = "groundtruth"
+version = "0.1.0"
+edition = "2021"
+description = "Min/max disassembly ground-truth generator (GROUNDTRUTH_FORMALISM.md)"
+
+[[bin]]
+name = "gen-gt"
+path = "src/main.rs"
+
+[dependencies]
+# goblin for the ELF container (sections, symtab, plt), gimli for DWARF
+# (.debug_line rows + DW_TAG_subprogram), capstone for the G_max linear sweep.
+# Everything provable from build artifacts — no heuristics, no objdump shell-out.
+goblin = "0.10"
+gimli = "0.31"
+capstone = "0.14"
+anyhow = "1"

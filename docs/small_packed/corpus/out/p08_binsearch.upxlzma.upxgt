@@ -1,0 +1,5 @@
+# Format-exact GT for p08_binsearch.upxlzma — derived from UPX's own b_info chain (NOT a disassembler).
+# 5 b_info blocks; p_filesize=20800.
+# field       label     vaddr_start   vaddr_end     file_start  file_end
+exec_segment  -         0x405000      0x4069b6      0x0       0x19b6
+compressed    NEGATIVE  0x40510c      0x40559f      0x10c       0x59f  provable data (1171 B)

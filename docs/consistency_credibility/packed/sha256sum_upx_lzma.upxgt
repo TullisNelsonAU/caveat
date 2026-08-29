@@ -1,0 +1,5 @@
+# Format-exact GT for sha256sum_upx_lzma — derived from UPX's own b_info chain (NOT a disassembler).
+# 3 b_info blocks; p_filesize=126648.
+# field       label     vaddr_start   vaddr_end     file_start  file_end
+exec_segment  -         0x800000      0x8051db      0x0       0x51db
+compressed    NEGATIVE  0x800188      0x804096      0x188       0x4096  provable data (16142 B)

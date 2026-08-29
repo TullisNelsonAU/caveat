@@ -1,0 +1,10 @@
+name	label	n	code_bytes	region_ent	s_glob	s_spat	t_floored	fire_flat	fire_floored	rule_pick	guard_pick	rule_pick_floored	guard_pick_floored
+p01_statemachine	unpacked	538	577	5.735301	0.337831	0.157002	0.355349	true	false	packed	benign	benign	benign
+p02_insertsort	unpacked	476	513	5.863455	0.387456	0.131384	0.373413	true	false	packed	benign	benign	benign
+p05_vm	unpacked	577	641	5.954572	0.511007	0.017808	0.345510	false	false	benign	benign	benign	benign
+p06_parser	unpacked	416	449	5.855385	0.354087	0.153669	0.394610	true	false	packed	benign	benign	benign
+p07_crc	unpacked	334	369	5.759623	0.354128	0.255183	0.432362	true	false	packed	benign	benign	benign
+p08_binsearch	unpacked	369	401	5.802524	0.318714	0.249299	0.414711	true	false	packed	benign	benign	benign
+p09_matmul	unpacked	570	609	5.951438	0.676178	0.203580	0.347202	true	false	packed	benign	benign	benign
+p10_collatz	unpacked	355	385	5.806096	1.143966	0.343402	0.421458	true	false	packed	benign	benign	benign
+p12_modpow	unpacked	526	577	5.611486	0.411167	0.240490	0.358594	true	false	packed	benign	benign	benign

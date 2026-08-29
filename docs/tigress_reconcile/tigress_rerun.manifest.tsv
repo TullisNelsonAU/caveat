@@ -1,0 +1,13 @@
+key	value
+engine_probdisasm	c62ead9
+harness_upd_suite_regime	7428609-dirty
+analysis_mode	Soft
+entropy_prior_strength	0
+chainfwd_strength	0
+use_dassa	false
+engine_call	run_soft_with_cavity_cfg(base, code, 0.0, 0.0, false)
+glob_hi	2.514702
+spat_hi	0.105178
+pack_ent_lo	7.1688
+n_binaries	27
+tigress_seed	20260707

@@ -1,0 +1,16 @@
+[package]
+name = "honesty"
+version = "0.0.0"          # experimental: 0.0.x until promoted to crates/
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+publish = false            # lives in experimental/, not released yet
+
+[[bin]]
+name = "honesty"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+probdisasm.workspace = true

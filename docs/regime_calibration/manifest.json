@@ -1,0 +1,25 @@
+{
+  "engine": "probdisasm",
+  "engine_path_dependency": "Cargo.toml -> ../probdisasm (no revision is pinned)",
+  "files": {
+    "optregime.csv": {
+      "bytes": 9813,
+      "csv_data_last_changed": "2026-07-17T17:05:25-05:00",
+      "csv_data_last_changed_commit": "42d29446757db59830a8a214438b1f677132ef78",
+      "csv_tracked": true,
+      "data_rows": 96,
+      "engine": {
+        "citation": "REGIME_CALIBRATION_PROBE_RESULTS.md:20",
+        "citation_text": "- **Engine:** `probdisasm` `feat/chainfwd-prior` @ `c62ead9` (#18, corrected coincidence priors),",
+        "commit": "c62ead9b8d14b25164e68974b8822ac104eb1be5",
+        "date": "2026-07-12T13:20:16-05:00",
+        "reason": "declared by hand in this directory's documentation and verified against probdisasm history; no run log recorded it independently",
+        "short": "c62ead9",
+        "source": "recorded_in_doc",
+        "subject": "fix(hints): adopt probdisasm #18 corrected coincidence priors"
+      },
+      "sha256": "e5a46d18660f647ecc806e150293d369bcada3823a75cc0ecbf4c63fac150e22"
+    }
+  },
+  "schema": 1
+}

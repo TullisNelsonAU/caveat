@@ -1,0 +1,33 @@
+{
+  "engine": "probdisasm",
+  "engine_path_dependency": "Cargo.toml -> ../probdisasm (no revision is pinned)",
+  "files": {
+    "guard.csv": {
+      "bytes": 7913,
+      "csv_data_last_changed": null,
+      "csv_data_last_changed_commit": null,
+      "csv_tracked": false,
+      "data_rows": 32,
+      "engine": {
+        "commit": null,
+        "reason": "CSV is untracked, so there is no commit date to bound against",
+        "source": "unknown"
+      },
+      "sha256": "f585ae6ec7b16e124a64cf731901c6f500994e8c4da9d88f84816e43a804564d"
+    },
+    "guard.partial.1784392468.csv": {
+      "bytes": 7913,
+      "csv_data_last_changed": null,
+      "csv_data_last_changed_commit": null,
+      "csv_tracked": false,
+      "data_rows": 32,
+      "engine": {
+        "commit": null,
+        "reason": "CSV is untracked, so there is no commit date to bound against",
+        "source": "unknown"
+      },
+      "sha256": "f585ae6ec7b16e124a64cf731901c6f500994e8c4da9d88f84816e43a804564d"
+    }
+  },
+  "schema": 1
+}

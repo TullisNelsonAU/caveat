@@ -1,0 +1,15 @@
+{
+  "engine": "probdisasm feat/chainfwd-prior @ c62ead9",
+  "driver": "upd-suite experimental/adversary",
+  "seed_pack": "0x9E3779B97F4A7C15",
+  "seed_interleave": "0xDEADBEEF",
+  "substrate_pairs": [
+    {"base": "gcc_coreutils_64_O1_sum", "donor": "gcc_coreutils_64_O1_printf"},
+    {"base": "gcc_coreutils_64_O1_printf", "donor": "gcc_coreutils_64_O1_sum"}
+  ],
+  "clean_fit": ["gcc_coreutils_64_O1_yes", "gcc_coreutils_64_O1_env"],
+  "gt_source": "injector-record + gen-gt insn_max (DWARF/symtab)",
+  "detection_null": {"S_glob": 1.01, "S_spat": 0.105},
+  "routing_gate": {"S_glob": 2.5147, "S_spat": 0.1052},
+  "rows": 30
+}

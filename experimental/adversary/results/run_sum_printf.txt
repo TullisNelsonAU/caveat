@@ -1,0 +1,18 @@
+
+# Adaptive-adversary constructions (glob_hi=1.01 spat_hi=0.105)
+
+C0_clean_base            n=18611  S_glob=  0.648 [  · ]  S_spat= 0.060 [  · ]  ECEcal=0.0020 [  ok  ]  ECEraw=0.0154 | regFPconf=0     regMeanPi=0.000 regSglob= 0.000 regSspat= 0.000 | trueRecov=0.976 | evades(calibrated)
+C1_decoy_realcode        n=46508  S_glob=  1.360 [FLAG]  S_spat= 0.080 [  · ]  ECEcal=0.1607 [MISCAL]  ECEraw=0.1577 | regFPconf=6743  regMeanPi=0.266 regSglob= 0.600 regSspat= 0.077 | trueRecov=0.977 | detected
+C1b_decoy_decodeGT       n=46508  S_glob=  1.360 [FLAG]  S_spat= 0.080 [  · ]  ECEcal=0.0034 [  ok  ]  ECEraw=0.0136 | regFPconf=6743  regMeanPi=0.266 regSglob= 0.600 regSspat= 0.077 | trueRecov=0.979 | detected
+C2_decoy_nopsled         n=49439  S_glob=  0.500 [  · ]  S_spat= 0.329 [FLAG]  ECEcal=0.5201 [MISCAL]  ECEraw=0.6272 | regFPconf=30784 regMeanPi=0.833 regSglob= 0.411 regSspat= 0.971 | trueRecov=0.976 | detected
+C3_pack_random           n=45369  S_glob=  0.833 [  · ]  S_spat= 0.162 [FLAG]  ECEcal=0.2159 [MISCAL]  ECEraw=0.1955 | regFPconf=5144  regMeanPi=0.366 regSglob= 0.961 regSspat= 0.197 | trueRecov=0.976 | detected
+C4_pack_deflate          n=47342  S_glob=  0.699 [  · ]  S_spat= 0.248 [FLAG]  ECEcal=0.1798 [MISCAL]  ECEraw=0.1244 | regFPconf=2479  regMeanPi=0.296 regSglob= 0.732 regSspat= 0.272 | trueRecov=0.976 | detected
+C5_interleave_k512       n=46217  S_glob=  1.788 [FLAG]  S_spat= 0.141 [FLAG]  ECEcal=0.1905 [MISCAL]  ECEraw=0.1777 | regFPconf=5965  regMeanPi=0.319 regSglob= 2.555 regSspat= 0.182 | trueRecov=0.976 | detected
+C5_interleave_k128       n=46328  S_glob=  2.458 [FLAG]  S_spat= 0.165 [FLAG]  ECEcal=0.1939 [MISCAL]  ECEraw=0.1782 | regFPconf=5946  regMeanPi=0.324 regSglob= 3.656 regSspat= 0.213 | trueRecov=0.976 | detected
+C5_interleave_k32        n=46352  S_glob=  1.450 [FLAG]  S_spat= 0.169 [FLAG]  ECEcal=0.1948 [MISCAL]  ECEraw=0.1803 | regFPconf=5968  regMeanPi=0.325 regSglob= 1.972 regSspat= 0.218 | trueRecov=0.976 | detected
+C5_interleave_k8         n=46317  S_glob=  1.064 [FLAG]  S_spat= 0.154 [FLAG]  ECEcal=0.1977 [MISCAL]  ECEraw=0.1827 | regFPconf=5638  regMeanPi=0.330 regSglob= 1.343 regSspat= 0.195 | trueRecov=0.976 | detected
+C6_desync_rho0.02        n=18715  S_glob=  6.146 [FLAG]  S_spat= 0.161 [FLAG]  ECEcal=0.0431 [MISCAL]  ECEraw=0.0569 | regFPconf=0     regMeanPi=0.000 regSglob= 0.000 regSspat= 0.000 | trueRecov=0.902 | detected
+C6_desync_rho0.05        n=18875  S_glob=  9.285 [FLAG]  S_spat= 0.211 [FLAG]  ECEcal=0.0645 [MISCAL]  ECEraw=0.0790 | regFPconf=0     regMeanPi=0.000 regSglob= 0.000 regSspat= 0.000 | trueRecov=0.866 | detected
+C6_desync_rho0.10        n=19144  S_glob=  9.275 [FLAG]  S_spat= 0.242 [FLAG]  ECEcal=0.1030 [MISCAL]  ECEraw=0.1164 | regFPconf=0     regMeanPi=0.000 regSglob= 0.000 regSspat= 0.000 | trueRecov=0.787 | detected
+C6_desync_rho0.20        n=19675  S_glob= 12.200 [FLAG]  S_spat= 0.266 [FLAG]  ECEcal=0.1503 [MISCAL]  ECEraw=0.1681 | regFPconf=0     regMeanPi=0.000 regSglob= 0.000 regSspat= 0.000 | trueRecov=0.685 | detected
+C6_desync_rho0.40        n=20373  S_glob= 15.542 [FLAG]  S_spat= 0.273 [FLAG]  ECEcal=0.2006 [MISCAL]  ECEraw=0.2168 | regFPconf=0     regMeanPi=0.000 regSglob= 0.000 regSspat= 0.000 | trueRecov=0.589 | detected

@@ -1,0 +1,6 @@
+{
+  "artifacts": [
+    "vtable_codec.elf__native-code-in-data"
+  ],
+  "seed": "vtable_codec.elf"
+}

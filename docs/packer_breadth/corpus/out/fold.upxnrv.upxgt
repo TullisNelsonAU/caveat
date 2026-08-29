@@ -1,0 +1,5 @@
+# Format-exact GT for fold.upxnrv — derived from UPX's own b_info chain (NOT a disassembler).
+# 3 b_info blocks; p_filesize=96694.
+# field       label     vaddr_start   vaddr_end     file_start  file_end
+exec_segment  -         0x800000      0x804425      0x0       0x4425
+compressed    NEGATIVE  0x80010c      0x803933      0x10c       0x3933  provable data (14375 B)

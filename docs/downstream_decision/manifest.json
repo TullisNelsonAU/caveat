@@ -1,0 +1,79 @@
+{
+  "engine": "probdisasm",
+  "engine_path_dependency": "Cargo.toml -> ../probdisasm (no revision is pinned)",
+  "files": {
+    "boundaries.csv": {
+      "bytes": 78738,
+      "csv_data_last_changed": "2026-08-06T22:06:21-05:00",
+      "csv_data_last_changed_commit": "5212e58c9fdd941dedc9716300253bea6f0af8d7",
+      "csv_tracked": true,
+      "data_rows": 996,
+      "engine": {
+        "citation": "DOWNSTREAM_RECOVERY_RESULTS.md:19",
+        "citation_text": "- Engine of record: probdisasm `feat/chainfwd-prior @ c62ead9` (confirmed before launch).",
+        "commit": "c62ead9b8d14b25164e68974b8822ac104eb1be5",
+        "date": "2026-07-12T13:20:16-05:00",
+        "reason": "declared by hand in this directory's documentation and verified against probdisasm history; no run log recorded it independently",
+        "short": "c62ead9",
+        "source": "recorded_in_doc",
+        "subject": "fix(hints): adopt probdisasm #18 corrected coincidence priors"
+      },
+      "sha256": "ed898e3e3279fb2e181957118abfdab2147fb1ecf18c428ad1f455f9e9b73491"
+    },
+    "boundaries_meta.csv": {
+      "bytes": 16255,
+      "csv_data_last_changed": "2026-08-06T22:06:21-05:00",
+      "csv_data_last_changed_commit": "5212e58c9fdd941dedc9716300253bea6f0af8d7",
+      "csv_tracked": true,
+      "data_rows": 83,
+      "engine": {
+        "citation": "DOWNSTREAM_RECOVERY_RESULTS.md:19",
+        "citation_text": "- Engine of record: probdisasm `feat/chainfwd-prior @ c62ead9` (confirmed before launch).",
+        "commit": "c62ead9b8d14b25164e68974b8822ac104eb1be5",
+        "date": "2026-07-12T13:20:16-05:00",
+        "reason": "declared by hand in this directory's documentation and verified against probdisasm history; no run log recorded it independently",
+        "short": "c62ead9",
+        "source": "recorded_in_doc",
+        "subject": "fix(hints): adopt probdisasm #18 corrected coincidence priors"
+      },
+      "sha256": "70f82163ce8c37e40d324b18c7536b84095f3cd85e5c231884379f6399deffac"
+    },
+    "decisions.csv": {
+      "bytes": 65258,
+      "csv_data_last_changed": null,
+      "csv_data_last_changed_commit": null,
+      "csv_tracked": false,
+      "data_rows": 672,
+      "engine": {
+        "citation": "DOWNSTREAM_RECOVERY_RESULTS.md:19",
+        "citation_text": "- Engine of record: probdisasm `feat/chainfwd-prior @ c62ead9` (confirmed before launch).",
+        "commit": "c62ead9b8d14b25164e68974b8822ac104eb1be5",
+        "date": "2026-07-12T13:20:16-05:00",
+        "reason": "declared by hand in this directory's documentation and verified against probdisasm history; no run log recorded it independently",
+        "short": "c62ead9",
+        "source": "recorded_in_doc",
+        "subject": "fix(hints): adopt probdisasm #18 corrected coincidence priors"
+      },
+      "sha256": "c188e3fabf4feb4448a3da712d158566e92c2a9632ad13eb5240276d10d51cda"
+    },
+    "decisions_meta.csv": {
+      "bytes": 11501,
+      "csv_data_last_changed": null,
+      "csv_data_last_changed_commit": null,
+      "csv_tracked": false,
+      "data_rows": 56,
+      "engine": {
+        "citation": "DOWNSTREAM_RECOVERY_RESULTS.md:19",
+        "citation_text": "- Engine of record: probdisasm `feat/chainfwd-prior @ c62ead9` (confirmed before launch).",
+        "commit": "c62ead9b8d14b25164e68974b8822ac104eb1be5",
+        "date": "2026-07-12T13:20:16-05:00",
+        "reason": "declared by hand in this directory's documentation and verified against probdisasm history; no run log recorded it independently",
+        "short": "c62ead9",
+        "source": "recorded_in_doc",
+        "subject": "fix(hints): adopt probdisasm #18 corrected coincidence priors"
+      },
+      "sha256": "6de49dc86c7e5b9c6d00054cc9c8eecd8db60bd796edfecf6ac009d148801325"
+    }
+  },
+  "schema": 1
+}

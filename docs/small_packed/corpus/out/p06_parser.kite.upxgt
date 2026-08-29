@@ -1,0 +1,7 @@
+# ROUTING-ONLY placeholder window (whole first exec PT_LOAD) for p06_parser.kite.
+# NOT a provable-data oracle: no 512B block in the post-loader tail clears 7.0 b/byte
+# (best tail suffix = 0 B), i.e. kiteshield's inner-encryption key/trap table is empty or
+# negligible at this program size and the outer-encrypted payload is out-of-band (second, non-exec
+# PT_LOAD). Present only so the pipeline computes the GT-free signature/routing columns. ECE is N/A.
+exec_segment  -         0x200000  0x203d9d  0x0  0x3d9d
+compressed    NEGATIVE  0x200000  0x203d9d  0x0  0x3d9d  PLACEHOLDER (code, not data)

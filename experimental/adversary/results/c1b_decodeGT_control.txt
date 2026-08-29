@@ -1,0 +1,3 @@
+C0_clean_base            n=18611  S_glob=  0.648 [  · ]  S_spat= 0.060 [  · ]  ECEcal=0.0020 [  ok  ]  ECEraw=0.0154 | regFPconf=0     regMeanPi=0.000 regSglob= 0.000 regSspat= 0.000 | trueRecov=0.976 | evades(calibrated)
+C1_decoy_realcode        n=46508  S_glob=  1.360 [FLAG]  S_spat= 0.080 [  · ]  ECEcal=0.1607 [MISCAL]  ECEraw=0.1577 | regFPconf=6743  regMeanPi=0.266 regSglob= 0.600 regSspat= 0.077 | trueRecov=0.977 | detected
+C1b_decoy_decodeGT       n=46508  S_glob=  1.360 [FLAG]  S_spat= 0.080 [  · ]  ECEcal=0.0034 [  ok  ]  ECEraw=0.0136 | regFPconf=6743  regMeanPi=0.266 regSglob= 0.600 regSspat= 0.077 | trueRecov=0.979 | detected

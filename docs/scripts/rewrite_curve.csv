@@ -1,0 +1,29 @@
+binary,cls,arm,coverage,sites,decoy_sites,works
+clean_calc,clean,baseline,0.6364,35,0,1
+clean_calc,clean,ours τ=0.0,0.6364,35,0,1
+clean_calc,clean,ours τ=0.5,0.6364,35,0,1
+clean_calc,clean,ours τ=0.7,0.6364,35,0,1
+clean_calc,clean,ours τ=0.9,0.6364,35,0,1
+clean_calc,clean,ours τ=0.95,0.6182,34,0,1
+clean_calc,clean,ours τ=0.99,0.6182,34,0,1
+datatab,code-in-data (hard),baseline,0.3212,44,26,0
+datatab,code-in-data (hard),ours τ=0.0,0.3212,44,26,0
+datatab,code-in-data (hard),ours τ=0.5,0.219,30,14,0
+datatab,code-in-data (hard),ours τ=0.7,0.1898,26,10,0
+datatab,code-in-data (hard),ours τ=0.9,0.1606,22,7,0
+datatab,code-in-data (hard),ours τ=0.95,0.0292,4,0,1
+datatab,code-in-data (hard),ours τ=0.99,0.0292,4,0,1
+junk_desync,overlap-desync (hard),baseline,0.4194,26,2,1
+junk_desync,overlap-desync (hard),ours τ=0.0,0.4194,26,2,1
+junk_desync,overlap-desync (hard),ours τ=0.5,0.4194,26,2,1
+junk_desync,overlap-desync (hard),ours τ=0.7,0.4194,26,2,1
+junk_desync,overlap-desync (hard),ours τ=0.9,0.3871,24,2,1
+junk_desync,overlap-desync (hard),ours τ=0.95,0.0,0,0,1
+junk_desync,overlap-desync (hard),ours τ=0.99,0.0,0,0,1
+ls_packed,"UPX-packed (hard, uncalibrated)",baseline,0.2833,2353,0,0
+ls_packed,"UPX-packed (hard, uncalibrated)",ours τ=0.0,0.2833,2353,0,0
+ls_packed,"UPX-packed (hard, uncalibrated)",ours τ=0.5,0.1484,1233,0,0
+ls_packed,"UPX-packed (hard, uncalibrated)",ours τ=0.7,0.1445,1200,0,0
+ls_packed,"UPX-packed (hard, uncalibrated)",ours τ=0.9,0.1353,1124,0,0
+ls_packed,"UPX-packed (hard, uncalibrated)",ours τ=0.95,0.128,1063,0,0
+ls_packed,"UPX-packed (hard, uncalibrated)",ours τ=0.99,0.1082,899,0,0

@@ -1,0 +1,17 @@
+[package]
+name = "obfuscate"
+version = "0.0.0"          # experimental: 0.0.x until promoted to crates/
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+publish = false            # not releasable yet — lives in experimental/
+
+[[bin]]
+name = "obfuscate"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+goblin.workspace = true
+capstone.workspace = true

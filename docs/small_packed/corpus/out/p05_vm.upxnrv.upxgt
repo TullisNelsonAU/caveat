@@ -1,0 +1,5 @@
+# Format-exact GT for p05_vm.upxnrv — derived from UPX's own b_info chain (NOT a disassembler).
+# 5 b_info blocks; p_filesize=21248.
+# field       label     vaddr_start   vaddr_end     file_start  file_end
+exec_segment  -         0x405000      0x406225      0x0       0x1225
+compressed    NEGATIVE  0x40510c      0x405732      0x10c       0x732  provable data (1574 B)

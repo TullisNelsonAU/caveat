@@ -1,0 +1,2 @@
+# built artifacts — reproducible from src/ via build_corpus.sh
+bin/

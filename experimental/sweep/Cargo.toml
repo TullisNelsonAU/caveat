@@ -1,0 +1,16 @@
+[package]
+name = "sweep"
+version = "0.0.0"          # experimental: the multi-binary honest/accurate curve generator
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+publish = false
+
+[[bin]]
+name = "sweep"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+evalkit.workspace = true

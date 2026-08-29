@@ -1,0 +1,13 @@
+obf,struct,axis,R0,R2,R3,R4,R5
+code-in-data,tiled,U_entropy_Ak,0.1983,0.3638,0.3638,0.2201,0.1449
+code-in-data,tiled,decoy_leak_Ak,996,0,0,0,0
+decoy-heavy,disconnected,U_entropy_Ak,0.4163,0.5038,0.5044,0.4712,0.3896
+decoy-heavy,disconnected,decoy_leak_Ak,1221,0,0,0,0
+decoy-heavy,high-posterior,U_entropy_Ak,0.4005,0.4162,0.4162,0.4404,0.4229
+decoy-heavy,high-posterior,decoy_leak_Ak,1414,0,0,0,0
+decoy-heavy,interleaved,U_entropy_Ak,0.4542,0.6496,0.6496,0.6474,0.6470
+decoy-heavy,interleaved,decoy_leak_Ak,1170,187,187,192,194
+decoy-heavy,mixed,U_entropy_Ak,0.4100,0.4723,0.4723,0.4554,0.3794
+decoy-heavy,mixed,decoy_leak_Ak,1285,0,0,0,0
+decoy-heavy,self-anchoring,U_entropy_Ak,0.4125,0.5079,0.5079,0.4591,0.2811
+decoy-heavy,self-anchoring,decoy_leak_Ak,1221,0,0,0,0

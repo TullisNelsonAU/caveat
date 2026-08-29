@@ -1,0 +1,5 @@
+# Format-exact GT for p01_statemachine.upxlzma — derived from UPX's own b_info chain (NOT a disassembler).
+# 5 b_info blocks; p_filesize=21176.
+# field       label     vaddr_start   vaddr_end     file_start  file_end
+exec_segment  -         0x405000      0x406a66      0x0       0x1a66
+compressed    NEGATIVE  0x40510c      0x40564c      0x10c       0x64c  provable data (1344 B)
